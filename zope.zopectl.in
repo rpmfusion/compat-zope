@@ -1,0 +1,6 @@
+#!/bin/bash
+
+. <<SYSCONFDIR>>/sysconfig/zope
+for instance in $ZOPE_INSTANCES; do
+  $instance/bin/zopectl "$@"
+done

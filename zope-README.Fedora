@@ -1,0 +1,12 @@
+      ==== Concerning the Fedora package ====
+
+A default instance has been installed in <<LOCALSTATEDIR>>/lib/zope.
+You can create additional instances using the mkzopeinstance.py script
+
+Add your instances to <<SYSCONFDIR>>/sysconfig/zope to make the zopectl script
+aware of them. Every operation run by <<BINDIR>>/zopectl will affect all
+your instances, you can control them independently using the zopectl
+script in the bin/ directory inside your instance.
+
+When you create a new instance, remember to change the default listening
+ports and to chown the directory to the zope user.
