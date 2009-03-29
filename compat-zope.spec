@@ -16,7 +16,7 @@
 Name:    compat-zope
 Summary: Web application server for flexible content management applications
 Version: 2.10.6
-Release: 2%{?dist}
+Release: 3%{?dist}
 License: ZPL
 Group: 	 System Environment/Daemons
 URL:     http://www.zope.org/
@@ -183,6 +183,9 @@ fi
 
 
 %changelog
+* Sun Mar 29 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 2.10.6-3
+- rebuild for new F11 features
+
 * Sun Aug 10 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info - 2.10.6-2
 - rebuild for RPM Fusion
 
