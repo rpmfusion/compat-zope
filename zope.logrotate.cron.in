@@ -1,6 +1,0 @@
-#!/bin/bash
-
-. <<SYSCONFDIR>>/sysconfig/zope
-for instance in $ZOPE_INSTANCES; do
-  logrotate $instance/etc/logrotate.conf
-done

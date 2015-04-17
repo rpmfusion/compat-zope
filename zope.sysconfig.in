@@ -1,7 +1,0 @@
-# List here the paths to your Zope instances, space separated.
-#
-# Example : ZOPE_INSTANCES="/var/lib/zope-test /var/lib/zope-prod"
-#
-# This file is used by the generic zopectl script.
-#
-ZOPE_INSTANCES="<<LOCALSTATEDIR>>/lib/zope"
